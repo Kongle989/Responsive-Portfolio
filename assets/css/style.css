@@ -1,0 +1,152 @@
+body {
+	background-image: url(../images/background.png);
+}
+
+.nav {
+	position: relative;
+	width: 100%;
+	height: 56px;
+	margin-bottom: 30px;
+	background-color: white;
+	border-bottom-style: solid;
+	border-color: #CCCCCC;
+}
+
+.name {
+	position: relative;
+	background-color: #4AAAA5;
+	color: white;
+	width: 130px;
+	display: inline-block;
+	padding: 12px;
+	margin-left: 50px;
+	font-size: 2em;
+}
+
+ul {
+	position: absolute;
+	left: 520px;
+	top: 20px;
+	list-style: none;
+}
+
+li {
+	display: inline;
+	padding: 10px;
+}
+
+h1, h2 {
+	color: #4AAAA5;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+.main {
+	float: left;
+	width: 380px;
+	border-style: solid;
+	border-color: #E2E2E2;
+	border-width: 1px;
+	background-color: white;
+	padding: 0px 20px 20px 20px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.bio-image {
+	width: 100px;
+	height: auto;
+}
+
+.images {
+	width: 49%;
+}
+.connect {
+	float: left;
+	padding: 0px 20px 20px 20px;
+	width: 176px;
+	border-style: solid;
+	border-color: #E1E1E1;
+	border-width: 1px;
+	background-color: white;
+	margin-left: 50px;
+}
+
+.link {
+	width: 55px;
+	height: 55px;
+}
+
+footer {
+	font-size: .7em;
+	float: left;
+	width: 100%;
+	text-align: center;
+	background-color: #666666;
+	color: white;
+	padding: 20px;
+	border-top: solid;
+	border-color: #4AAAA5;
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 980px){
+	.images {
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.main {
+		width: 80%;
+	}
+	.bio-image {
+		float: left;
+		margin-right: 10px;
+	}
+	ul {
+		left: 480px;
+	}
+	.connect {
+		width: 80%;
+	}
+	.images {
+		width: 49%;
+	}
+	.field {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.bio-image{
+		width: 100%;
+		height: auto;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.nav {
+		text-align: center;
+		background-color: #4AAAA5;
+		margin-bottom: 80px;
+	}
+	ul {
+		position: relative;
+		top: 0px;
+		left: 20px;
+		background-color:  white;
+		padding: 30px;
+	}
+	.name {
+		text-align: center;
+	}
+	li {
+		padding: 0px 30px 0px 30px;
+	}
+	.images {
+		width: 100%;
+	}
+
+}
